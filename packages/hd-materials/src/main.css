@@ -1,0 +1,11 @@
+@import "primereact/resources/themes/bootstrap4-light-blue/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prompt__text {
+  @apply dark:text-gray-100;
+}

@@ -1,0 +1,95 @@
+@import "react-toastify/dist/ReactToastify.min.css";
+@import "primereact/resources/themes/bootstrap4-light-blue/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: var(--surface-ground);
+  font-family: var(--font-family);
+  font-weight: normal;
+  color: var(--text-color);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-color-scheme: light) {
+  .prompt__text {
+    color: var(--text-color) !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .prompt__text {
+    color: var(--text-color) !important;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .p-menubar .p-menubar-button {
+    display: none;
+  }
+}
+
+.p-dialog {
+  overflow: visible;
+}
+
+.p-dialog .p-dialog-content {
+  overflow: visible;
+}
+
+.p-menu .p-menuitem-link:focus,
+.p-menubar .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus,
+.p-button.p-button-danger.p-button-text:focus,
+.p-button:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none;
+}
+
+.hd-menubar.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem
+  > .p-menuitem-link
+  .p-menuitem-text,
+.hd-menubar.p-menubar
+  .p-menubar-root-list
+  > .p-menuitem
+  > .p-menuitem-link
+  .p-menuitem-icon,
+.hd-button.p-button,
+.hd-button.p-button.p-button-outlined:enabled:hover,
+.hd-button.p-button.p-button-outlined:enabled:active,
+.hd-button.p-button.p-button-outlined:enabled:active,
+.hd-button.p-button.p-button-text:enabled:hover {
+  color: #ffffff;
+  background-color: #3c1466;
+}
+
+.hd-blue-primary {
+  color: #3c1466;
+}
+
+.hd-blue-secondary {
+  color: #58dae0;
+}
+
+.hd-bg-blue-primary {
+  background-color: #3c1466;
+}
+
+.hd-bg-blue-secondary {
+  background-color: #58dae0;
+}

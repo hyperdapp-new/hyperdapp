@@ -1,0 +1,25 @@
+{
+  "name": "hyperdapp",
+  "version": "0.7.2",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "ospec"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "vendor/"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "hyperdapp-dev": "workspace:*",
+    "ospec": "^4.1.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.0"
+  }
+}
